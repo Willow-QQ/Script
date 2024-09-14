@@ -36,8 +36,6 @@ hostname = dlabel.ctaiot.com
         jsonBody.data[1].vipDay = 14;
         // 将第三个条目的 receive 字段设置为 1，表示已领取
         jsonBody.data[2].receive = 1;
-        // 将第三个条目的 count 字段设置为 3
-        jsonBody.data[2].count = 3;
       }
 
       // 匹配 shareUserId 并将其存储到本地
