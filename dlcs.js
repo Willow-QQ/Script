@@ -35,9 +35,9 @@ hostname = dlabel.ctaiot.com
         // 将 VIP 天数设置为 14 天
         jsonBody.data[1].vipDay = 14;
         // 将第三个条目的 receive 字段设置为 1，表示已领取
-        jsonBody.data[5].receive = 1;
+        jsonBody.data[2].receive = 1;
         // 将第三个条目的 count 字段设置为 3
-        jsonBody.data[5].count = 3;
+        jsonBody.data[2].count = 3;
       }
 
       // 匹配 shareUserId 并将其存储到本地
