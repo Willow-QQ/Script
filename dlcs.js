@@ -27,9 +27,7 @@ let jsonData = {
 jsonData.data.vipTag = "VIP";
 
 // 设置 vipDeadline 为 1 年后的时间
-let now = new Date();
-let newDeadline = new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000); // 1年 = 365天
-jsonData.data.vipDeadline = newDeadline.getTime();
+jsonData.data.vipDeadline = "1755331698804";
 
 // 输出修改后的 JSON 数据
 console.log(JSON.stringify(jsonData, null, 2));
