@@ -5,7 +5,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/dlabel\.ctaiot\.com\/(welfarw/list|push/list) url script-response-body https://raw.githubusercontent.com/Willow-QQ/Script/main/dlloon.js
+^https:\/\/dlabel\.ctaiot\.com\/(welfare/list|push/list) url script-response-body https://raw.githubusercontent.com/Willow-QQ/Script/main/dlloon.js
    
 [mitm]
 hostname = dlabel.ctaiot.com 
