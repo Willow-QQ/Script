@@ -1,11 +1,10 @@
-/*************************************
-使用声明：⚠️仅供参考，🈲转载与售卖！
+*************************************
 脚本说明：登录账号后在我的界面点右上角礼盒进入后退出，点击礼盒右侧的消息进入在退出，然后重新进入礼盒一直重复领取即可（可反复领取,累加天数)；
 注意事项：开启脚本时，我的界面右上角的消息只能进去一次，不然会导致会员时间不在累加，且脚本失效
 **************************************
 
 [rewrite_local]
-^https://dlabel\.ctaiot\.com/api/(welfare/list|push/list) url script-response-body https://raw.githubusercontent.com/Willow-QQ/Script/refs/heads/main/dlloon.js  
+^https://dlabel\.ctaiot\.com/api/(welfare/list|push/list) url script-response-body https://raw.githubusercontent.com/Willow-QQ/Script/refs/heads/main/dlloon.js
 [mitm]
 hostname = dlabel.ctaiot.com
 
@@ -21,7 +20,7 @@ hostname = dlabel.ctaiot.com
   if (url.indexOf(vip) != -1) {
     // 获取响应体
     var body = $response.body;
-
+    
     // 打印响应体以调试 JSON 格式问题
     console.log("Response body: " + body); // 调试用
 
@@ -35,6 +34,10 @@ hostname = dlabel.ctaiot.com
         jsonBody.data[1].receive = 1;
         // 将 VIP 天数设置为 14 天
         jsonBody.data[1].vipDay = 14;
+        // 将第三个条目的 receive 字段设置为 1，表示已领取
+        jsonBody.data[5].receive = 1;
+        // 将第三个条目的 count 字段设置为 3
+        jsonBody.data[5].count = 3;
       }
 
       // 匹配 shareUserId 并将其存储到本地
@@ -52,10 +55,7 @@ hostname = dlabel.ctaiot.com
     } catch (e) {
       // 捕获并处理 JSON 解析错误
       console.log("JSON parse error: " + e.message);
-      // 打印原始响应体
-      console.log("Original body: " + body);
-      // 返回原始响应体，避免脚本失败
-      $done({ body: body });
+      $done(); // 继续运行，即使解析失败
     }
   }
 
