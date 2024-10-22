@@ -10,7 +10,7 @@ trojan://dREakhEAmJ@ldhk9527a.iamback.top:20014?security=tls&type=tcp&headerType
 trojan://LnZk4ttBCE@kajp1130a.iamgone.top:20047?security=tls&type=tcp&headerType=none&allowInsecure=1#%E6%97%A5%E6%9C%AC
 trojan://8sdbGrUHPK@vvr9527a.iamback.top:20059?security=tls&type=tcp&headerType=none&allowInsecure=1#%E9%9F%A9%E5%9B%BD
 trojan://OPDRhtxw9K@cwt0827a.iamgone.top:20004?security=tls&type=tcp&headerType=none&allowInsecure=1#%E5%8F%B0%E6%B9%BE
-trojan://epLDGKqMEO@yes9527a.iamback.top:20040?security=tls&type=tcp&headerType=none&allowInsecure=1#%E8%8B%B1%E5%9B%BD
-trojan://epLDGKqMEO@yes9527a.iamback.top:20040?security=tls&type=tcp&headerType=none&allowInsecure=1#%E5%BE%B7%E5%9B%BD
+trojan://bxbw6sjpcn@yes9527a.iamback.top:20042?security=tls&type=tcp&headerType=none&allowInsecure=1#%E8%8B%B1%E5%9B%BD
+trojan://bxbw6sjpcn@yes9527a.iamback.top:20042?security=tls&type=tcp&headerType=none&allowInsecure=1#%E5%BE%B7%E5%9B%BD
 trojan://LnZk4ttBCE@kajp1130a.iamgone.top:20047?security=tls&type=tcp&headerType=none&allowInsecure=1#ChatGPT
 trojan://MR1nkvKTW6@qqtw9527kc.tuizhi19.com:20137?security=tls&type=tcp&headerType=none&allowInsecure=1#%E8%A7%86%E9%A2%91%E4%B8%93%E7%BA%BF
