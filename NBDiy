@@ -3,7 +3,7 @@
  * 解锁会员
  * 
 [rewrite_local]
-^https?:\/\/www\.nobook\.com\/passport\/v5\/login\/(check|phone) url script-response-body https://raw.githubusercontent.com/Willow-QQ/Script/refs/heads/main/NBdiy.js
+^https?:\/\/www\.nobook\.com\/passport\/v5\/login\/(check|phone) url script-response-body https://raw.githubusercontent.com/Willow-QQ/Script/refs/heads/main/NBDiy.js
 
 [mitm]
 hostname = www.nobook.com
